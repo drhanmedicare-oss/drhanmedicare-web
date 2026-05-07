@@ -284,7 +284,7 @@
       /* ABOUT */
       .about-grid {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 40px;
         align-items: center;
       }
@@ -294,55 +294,13 @@
         line-height: 1.8;
         margin-bottom: 16px;
       }
-      .about-nums {
-        display: flex;
-        gap: 14px;
-        margin-top: 24px;
-        flex-wrap: wrap;
-      }
-      .anum {
-        background: var(--blue-light);
-        border-radius: 12px;
-        padding: 14px 18px;
-        text-align: center;
-      }
-      .anum-n {
-        font-size: 22px;
-        font-weight: 700;
-        color: var(--blue);
-      }
-      .anum-l {
-        font-size: 11px;
-        color: var(--muted);
-        margin-top: 2px;
-      }
+      
 
-      .about-icons{
-        display: flex;
-        gap: 14px;
-        justify-content: center;
-        margin-top: 24px; 
-      }
-      .about-icons .a{
-        background-color: var(--white);
-        border-radius: 12px;
-        padding: 14px 28px;
-        text-align: center;
-      }
-      .about-icons .b{
-        font-size: 22px;
-        font-weight: 700;
-        color: var(--blue);
-      }
-      .about-icons .c{
-        font-size: 11px;
-        color: var(--muted);
-        margin-top: 2px;
-      }
+      
       .about-profile {
         background: var(--blue-light);
         border-radius: 20px;
-        padding: 28px;
+        padding: 20px 10px;
         border: 1px solid var(--blue-mid);
         text-align: center;
       }
@@ -356,7 +314,7 @@
         box-shadow: var(--shadow);
       }
       .about-profile h3 {
-        font-size: 17px;
+        font-size: 27px;
         font-weight: 700;
         color: var(--blue-dark);
         margin-bottom: 4px;
@@ -364,7 +322,31 @@
       .about-profile .sub {
         font-size: 12px;
         color: var(--muted);
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+      }
+      .about-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 2px; 
+      }
+      .about-icons .a{
+        flex: 1;
+        background-color: var(--white);
+        border-radius: 12px;
+        text-align: center;
+        padding:15px 10px;
+      }
+      .about-icons .b{
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--blue);
+      }
+      .about-icons .c{
+        font-size: 11px;
+        color: var(--muted);
+        margin-top: 2px;
       }
       
       /* SERVICES */
